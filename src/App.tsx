@@ -160,7 +160,7 @@ function App() {
             </g>
           </g>
         </svg>
-        <h1>Order Summary</h1>
+        <h1 className="text-3xl font-bold underline">Order Summary</h1>
         <p>
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
