@@ -1,7 +1,14 @@
+import icon from "./assets/icon-music.svg";
+import bg from "./assets/pattern-background-desktop.svg";
+
 function App() {
   return (
-    <main>
+    <main
+      className="h-screen w-screen bg-repeat-x"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
       <div>
+        <img src={icon} alt="" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
