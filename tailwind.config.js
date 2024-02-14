@@ -11,6 +11,9 @@ export default {
         "desaturated-blue": "hsl(224, 23%, 55%)",
         "dark-blue": "hsl(223, 47%, 23%)",
       },
+      screens: {
+        sm: "375px",
+      },
     },
   },
   plugins: [],
