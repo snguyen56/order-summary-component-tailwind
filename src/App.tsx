@@ -23,16 +23,19 @@ function App() {
           </div>
           <a
             href=""
-            className="text-bright-blue text-[13px] font-bold underline"
+            className="text-bright-blue hover:text-bright-blue/75 text-[13px] font-bold underline hover:no-underline"
           >
             Change
           </a>
         </div>
         <div className="mt-[24px] flex flex-col gap-6 px-6 text-[15px] md:mt-[32px] md:gap-8 md:px-12">
-          <button className="bg-bright-blue shadow-bright-blue rounded-xl py-[14px] font-bold text-white shadow">
+          <button className="bg-bright-blue shadow-bright-blue hover:bg-bright-blue/75 rounded-xl py-[14px] font-bold text-white shadow">
             Proceed to Payment
           </button>
-          <a href="" className="text-desaturated-blue font-bold">
+          <a
+            href=""
+            className="text-desaturated-blue hover:text-dark-blue font-bold"
+          >
             Cancel Order
           </a>
         </div>
