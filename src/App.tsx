@@ -3,8 +3,8 @@ import banner from "./assets/illustration-hero.svg";
 
 function App() {
   return (
-    <main className="grid h-screen w-screen place-items-center bg-pale-blue bg-[url('./assets/pattern-background-mobile.svg')] bg-no-repeat sm:bg-[url('./assets/pattern-background-desktop.svg')] sm:bg-repeat-x">
-      <div className=" h-[567px] w-[327px] overflow-hidden rounded-[20px] bg-white text-center drop-shadow-2xl md:h-[697px] md:w-[450px]">
+    <main className="relative grid h-screen w-screen place-items-center bg-pale-blue bg-[url('./assets/pattern-background-mobile.svg')] bg-no-repeat sm:bg-[url('./assets/pattern-background-desktop.svg')] sm:bg-repeat-x">
+      <div className="h-[567px] w-[327px] overflow-hidden rounded-[20px] bg-white text-center drop-shadow-2xl md:h-[697px] md:w-[450px]">
         <img src={banner} alt="illustration hero" />
         <h1 className="mt-[30px] text-[22px] font-black text-dark-blue md:mt-[43px] md:text-[28px]">
           Order Summary
@@ -33,6 +33,25 @@ function App() {
             Cancel Order
           </a>
         </div>
+      </div>
+      <div className="absolute bottom-4 text-center text-[11px]">
+        Challenge by{" "}
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          className="text-attribution"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a
+          href="https://github.com/snguyen56"
+          target="_blank"
+          className="text-attribution"
+        >
+          Steven Nguyen
+        </a>
+        .
       </div>
     </main>
   );

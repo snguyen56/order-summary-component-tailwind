@@ -10,6 +10,7 @@ export default {
         "very-pale-blue": "hsl(225, 100%, 98%)",
         "desaturated-blue": "hsl(224, 23%, 55%)",
         "dark-blue": "hsl(223, 47%, 23%)",
+        attribution: "hsl(228, 45%, 44%)",
       },
       screens: {
         sm: "375px",
